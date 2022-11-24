@@ -1,0 +1,40 @@
+/* GENERICS */
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    min-height: 100px;
+}
+
+
+header{
+    color: #ffff;
+}
+
+header .row{
+    background-color: #2c3e50;
+    min-height: 100px;
+}
+
+
+
+
+.start .row{
+    background-color: #1abc9c;
+}
+
+
+
+
