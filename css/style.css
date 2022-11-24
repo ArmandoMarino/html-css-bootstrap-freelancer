@@ -14,13 +14,16 @@ h3{
     padding: 0;
 }
 
+p{
+    margin: 0;
+}
+
 .row{
     min-height: 100px;
 }
 
 .avatar{
    width: 50%;
-   
 }
 
 /* MAIN */
@@ -57,5 +60,26 @@ section{
     color: #ffff;
     padding: 20px;
 }
+.about .col-12{
+    margin-bottom: 20px;
+}
+/* FOOTER */
+footer{
+    background-color: #3a546d;
+    color: #ffff;
+}
 
+footer .col-12{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+footer .col-12:last-child{
+    background-color: #2c3e50;
+    margin: 0;
+    padding: 30px;
+}
+
+footer i{
+    margin: 5px;
+}
