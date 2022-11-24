@@ -52,7 +52,10 @@ section{
     margin-bottom: 20px;
 }
 
-.gallery .card{
-    border: red solid 2px;
-    border-radius: 20px;
+.about{
+    background-color: #1abc9c;
+    color: #ffff;
+    padding: 20px;
 }
+
+
