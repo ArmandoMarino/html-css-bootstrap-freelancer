@@ -23,10 +23,11 @@ p{
 }
 
 .avatar{
-   width: 50%;
+   width: 300px;
 }
 
-/* MAIN */
+/******************** MAIN */
+/*? HEADER */
 header{
     color: #ffff;
 }
@@ -49,8 +50,8 @@ section{
     background-color: #1abc9c;
 }
 
-
-.gallery .col-12{
+.gallery [class^='col']{
+/* .gallery .col-12{ */
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -60,16 +61,20 @@ section{
     color: #ffff;
     padding: 20px;
 }
-.about .col-12{
+
+.about [class^='col']{
+/* .about .col-12{ */
     margin-bottom: 20px;
 }
-/* FOOTER */
+
+/*? FOOTER */
 footer{
     background-color: #3a546d;
     color: #ffff;
 }
 
-footer .col-12{
+footer [class^='col']{
+/* footer .col-12{ */
     margin-top: 20px;
     margin-bottom: 20px;
 }
