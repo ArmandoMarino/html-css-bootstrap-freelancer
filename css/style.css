@@ -18,7 +18,12 @@ h3{
     min-height: 100px;
 }
 
+.avatar{
+   width: 50%;
+   
+}
 
+/* MAIN */
 header{
     color: #ffff;
 }
@@ -28,8 +33,14 @@ header .row{
     min-height: 100px;
 }
 
+section{
+    margin-bottom: 30px;
+}
 
-
+.start >*{
+    padding: 10px;
+    color: #ffff;
+}
 
 .start .row{
     background-color: #1abc9c;
