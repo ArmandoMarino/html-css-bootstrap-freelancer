@@ -51,7 +51,6 @@ section{
 }
 
 .gallery [class^='col']{
-/* .gallery .col-12{ */
     margin-top: 20px;
 }
 
@@ -62,7 +61,6 @@ section{
 }
 
 .about [class^='col']{
-/* .about .col-12{ */
     margin-bottom: 20px;
 }
 
@@ -73,8 +71,7 @@ footer{
 }
 
 footer [class^='col']{
-/* footer .col-12{ */
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
