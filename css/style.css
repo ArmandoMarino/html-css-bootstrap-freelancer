@@ -41,6 +41,7 @@ section{
     margin-bottom: 30px;
 }
 
+/* JUMBOTRON */
 .start >*{
     padding: 10px;
     color: #ffff;
@@ -50,10 +51,12 @@ section{
     background-color: #1abc9c;
 }
 
+/* GALLERY */
 .gallery [class^='col']{
     margin-top: 20px;
 }
 
+/* ABOUT */
 .about{
     background-color: #1abc9c;
     color: #ffff;
@@ -62,6 +65,18 @@ section{
 
 .about [class^='col']{
     margin-bottom: 20px;
+}
+
+/* CONTACT ME */
+.contact-me input{
+    padding: 0;
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border-color: #2c3e50;
 }
 
 /*? FOOTER */
